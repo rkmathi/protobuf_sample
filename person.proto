@@ -1,0 +1,7 @@
+// example: { id: 123, name: "Name", email: "emal@example.com" }
+
+message Person {
+  required int32 id = 1;
+  required string name = 2;
+  optional string email = 3;
+}
